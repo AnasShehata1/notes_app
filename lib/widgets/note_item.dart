@@ -23,7 +23,7 @@ class NoteItem extends StatelessWidget {
             titleTextStyle: const TextStyle(color: Colors.black, fontSize: 24),
             subtitle: const Text('Build your carrer with tharwat samy'),
             subtitleTextStyle:
-                TextStyle(color: Colors.black.withOpacity(0.5), fontSize: 20),
+                TextStyle(color: Colors.black.withOpacity(0.5), fontSize: 18),
             trailing: IconButton(
                 onPressed: () {},
                 icon: const Icon(
