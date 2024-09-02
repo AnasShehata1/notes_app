@@ -4,6 +4,7 @@ import 'package:notes_app/cubits/notes_cubit/notes_cubit.dart';
 import 'package:notes_app/models/note_model.dart';
 import 'package:notes_app/widgets/custom_app_bar.dart';
 import 'package:notes_app/widgets/custom_text_field.dart';
+import 'package:notes_app/widgets/edit_note_colors_list.dart';
 
 class EditNoteViewBody extends StatefulWidget {
   const EditNoteViewBody({super.key, required this.noteModel});
@@ -48,6 +49,8 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
               content = data;
             },
           ),
+          const SizedBox(height: 18),
+           EditNoteColorsList(noteModel: widget.noteModel,)
         ],
       ),
     );
